@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color: black;
+}
+.brand{
+    font-weight: bold;
+}
+.secondary-text{
+    color: aqua;
+}
+.navbar{
+    display: none;
+}
+.bars{
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+#close{
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 10px
+}
+.sideNavbar{
+    display: none;
+    background: rgba(4, 30, 96, 0.668);
+    right: 0;
+    /* margin: 0.5px 0 0 0; */
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.showSide{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    position: fixed;
+    text-align: center;
+    
+}
+.sideNav li{
+    margin: 0 0 20px 0;
+}
+.links{
+   text-decoration: none;
+   color: white;
+    
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 20px 20px 20px 10px;
+    text-align: center;
+}
+section{
+    color: black;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:720px){
+    .container{
+        justify-content: left;
+        width: auto;
+    }
+    .navbar{
+        display: flex;
+        
+    }
+    ul{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        
+    }
+    .bars {
+        display: none;
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+        margin: 0 0 0 10px;
+    }
+    .sideNavbar{
+        display: none !important;
+    }
+}
