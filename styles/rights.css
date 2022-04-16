@@ -1,0 +1,45 @@
+.rights-ctn{
+    background:var(--main-color);
+    color: var(--third-color);
+    font-weight: 600;
+}
+.right-flex{
+    display: flex;
+    justify-content: space-between;
+padding: 10px 10px 0px 10px;
+}
+.right-flex a{
+   text-decoration: none;
+   color: var(--third-color);
+   font-weight: 600;
+padding: 10px;
+
+}
+.right-flex a:first-child::after{
+    position: absolute;
+   content: '';
+   height: 2%;
+   width: 2px;
+   margin: 5px 0 0 10px;
+   background-color: var(--third-color);
+
+    
+ 
+ }
+
+
+ @media screen and (max-width:414px) {
+     .right-flex{
+         flex-direction: column;
+     }
+     .right-flex a{
+     padding: 0;
+     margin: 10px;
+     
+     }
+     .right-flex {
+        padding: 10px;
+        
+        
+        }
+ }

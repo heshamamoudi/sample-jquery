@@ -1,53 +1,971 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sample</title>
     <link rel="stylesheet" href="index.css" class="style">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-</head>
-<body>
-    <div class="container">
-
-        <a class="brand">brand <span class="secondary-text">Amazing</span></a>
-        <img class="bars" id="menu" src="./assets/bars.png"></i>
-        <div class="navbar">
-            <nav class="nav">
-            
-            <ul>
-                <li><a href="#" >Home</a>  </li>
-                <li><a href="#" >Features</a>  </li>
-                <li><a href="#" >Socials</a>  </li>
-                <li><a href="#" >Services</a>  </li>
-            </ul>
-        </nav>
-        </div>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/intro.css">
+    <link rel="stylesheet" href="styles/sideNav.css">
+    <link rel="stylesheet" href="styles/opportunities.css">
+    <link rel="stylesheet" href="styles/rights.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/partners.css">
     
-   
-        
-        
+
+
+</head>
+
+<body>
+    <div class="container-fluid nav-hero-ctn">
+        <!-- navBar  -->
+        <div class="row navbar bg">
+            <div class="col-sm-auto brand-border"><img class="gaca p-2" id="" src="./assets/gaca.png"></img></div>
+            <div class="col-2 mx-lg-1 brand"><a class="brand">GACA INVESTMENT PORTAL</a>
+
+
+            </div>
+            <div class="col-9 bars-ctn">
+                <img class="bars " id="menu" src="./assets/bars.png"></i>
+            </div>
+
+            <div class="col-lg-auto nav-ctn">
+
+                <nav class="nav">
+
+                    <ul class="navbar-list">
+
+                        <li><a class="nav-links active" href="#">home</a> </li>
+                        <li><a class="nav-links" href="#">how to invest</a> </li>
+                        <li><button class="list-op">Opportunities <img src="./assets/arrow-down.png" alt=""> </button class="list-op"> 
+
+
+                        </li>
+                        <li><a class="nav-links" href="#">Statistics</a> </li>
+                        <li><a class="nav-links" href="#">Contact</a> </li>
+                        <li ><a class="nav-links" href="#">My Account</a> </li>
+                        <button class=" btn-account">2</button>
+                    </ul>
+
+                    <a class="lang right">اللغة العربية</a>
+
+                </nav>
+
+            </div>
+        </div>
+        <!-- Side navBar  -->
+        <div class="sideNavbar " id="sideNavbar">
+            <img id="close" src="./assets/close.png"></i>
+            <nav class="sideNav">
+                <ul class="list">
+                    <li><a class="links" id="link1" href="#">Home</a> </li>
+                    <li><a class="links" id="link2" href="#">Features</a> </li>
+                    <li><a class="links" id="link3" href="#">Socials</a> </li>
+                    <li><a class="links" id="link4" href="#">Services</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="opportunities-list" >
+            
+            <nav class="opp-drop-down">
+                <ul class="list-opp">
+                    <li><a class="links" id="link1" href="#food">food & beverage</a> </li>
+                    <li><a class="links" id="link2" href="#ads">advertising & services</a> </li>
+                    <li><a class="links" id="link3" href="#retails">retails & free</a> </li>
+                    <li><a class="links" id="link4" href="#transport">transportation</a> </li>
+                    <li><a class="links" id="link4" href="#hospt">hospitality</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Hero section -->
+        <section class="container">
+            <div class="hero-ctn ">
+
+                <div class="row info-holder ">
+                    <div class="col-12 push">
+                        <p class="topLine">we are commited to ..</p>
+                        <p class="heading">Adding Value to your investment</h1>
+                        <p id="description">All over Kingdom's airport facilities and servies to grow your business
+                            success.</p>
+                        <div class="action"><button class="explore" id="action-btn"><a href="#">Explore Opportunities</a></button>
+                            <img id="arrow" src='/assets/arrow.png' alt='arrow' />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row pics">
+                    <div class="col radios text-center">
+
+
+                        <input type="radio" name="radio" id="radio1" checked="">
+
+
+                        <input type="radio" name="radio" id="radio2">
+
+                        <input type="radio" name="radio" id="radio3">
+                    </div>
+                </div>
+                <div class="analysis">
+                    <div class="container">
+                        <div class="row boxes-ctn ">
+                            <div class="col-3 ">
+                                <div class="box  row">
+                                    <div class="row ">
+                                        <div class="col-auto "><img src="assets/map.png" /></div>
+                                        <div class="col">
+                                            <p class="card-heads">+30</p>
+                                            <p class="card-desc">International & Domestic Airports all over kingdom of Saudi Arabia
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" col-3 ">
+                                <div class=" box row">
+                                    <div class="row">
+                                        <div class="col-auto mobile"><img src=" assets/world.png" />
+                                        </div>
+                                        <div class="col">
+                                            <p class="card-heads">+3 Millions</p>
+                                            <p class="card-desc">Passengers annualy bia airports ready to add value to your business.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-3">
+                                <div class="box row">
+                                    <div class="row">
+                                        <div class="col-auto "><img src="assets/coins.png" /></div>
+                                        <div class="col  ">
+                                            <p class="card-heads">+4500</p>
+                                            <p class="card-desc">Investment opportunites ready for your move to make succesful
+                                                business</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
     </div>
-    <div class="sideNavbar " id="sideNavbar">
-        <img id="close" src="./assets/close.png"></i>
-        <nav class="sideNav">
-            <ul class="list">
-                <li><a class="links" id="link1" href="#" >Home</a>  </li>
-                <li><a class="links" id="link2" href="#" >Features</a>  </li>
-                <li><a class="links" id="link3" href="#" >Socials</a>  </li>
-                <li><a class="links" id="link4" href="#" >Services</a>  </li>
-            </ul>
-        </nav>
+
     </div>
-    <section class="hero">
-<div class="hero-ctn">
-    hello
-</div>
+    <section>
+        <div class=" container-fluid  intro-ctn">
+            <div class="container intro">
+                <div class="row  row-cols-lg-1 intro-rows">
+                    <div class="col-3 img-year"><img src="./assets/vision.png"></div>
+                    <div class="col-3 header-intro ">
+                        <p>Your NEXT INVESTMENT DESTINATION</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-3 desc-intro">
+                        <p>Today, International and demestic airports all over the kingdom of saudi arabia collectively
+                            cater for more than four billion Passengers
+                            annually, with growth driven by kingdom vision 2030 combined with declining cost of air
+                            travel. for most invsetors, GACA gives ability to invest and maximize profits for all saudi
+                            and forign investors by exploring wide range of opportunites to start successful business.
+                        </p>
+                    </div>
+                    <div class="col-3 act-ctn"><a class="start-actn" href="#">START NOW</a></div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class=" container-fluid contact">
+            <div class="container contact-ctn">
+                <div class="row contact-rows">
+                    <div class="col-12  "><img id='plant' src="./assets/plant-small.svg"
+                            alt="plant"><span id="plantmsg">have an Investment idea ? ..</span><span id="plantmsg2"> share your thoughts to
+                        deliver successful services</span> <button class="contactus"><a href="https://www.google.com"
+                                target="_blank">Contact us</a></button></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="container-fluid opportunities">
+        <div class="container text-center">
+            <h1 class="header-opportunities">
+                <span>Latest</span> opportunites
+            </h1>
+            <!-- first section -->
+            <section id="food">
+                <div class="row row-opportunities opportunities-section">
+                    <div class="row img-title">
+                        <div class="col-2 marker"><img src="./assets/food.png" /></div>
+                        <div class="col-2 title-img">
+                            <h2 class="title">food & beverage</h2>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King abdulaziz international airport<span
+                                        class="new">new</span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">food court location</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row mobile">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">food</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">2 june 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- sec card -->
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11 top-line">dammam airport<span class="new"></span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">coffe special location</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col">
+                                    <button class="cat-action">
+                                        <a href="#" class="cat-a">beverages</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">1 august 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="col mb-4">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King abdulaziz international airport<span
+                                        class="new"></span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">30 m² area in terminal 1</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">beverages</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">14 may 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col read-col">
+
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  show-links">
+                        <div class="col-12 list-ctn">
+                            <ul class="category-list">
+                                <span class="show-cat">show :</span>
+                                <li><a href='#'>All (<span id="countS1A">35</span>)</a></li>
+                                <li><a href='#'>Food (<span id="countS12">12</span>)</a></li>
+                                <li><a href='#'>Beverages (<span id="countS13">13</span>)</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- ends -->
+            <!-- second section -->
+            <section id="ads">
+                <div class="row row-opportunities opportunities-section">
+                    <div class="row img-title">
+                        <div class="col-2 marker"><img src="./assets/services.png" /></div>
+                        <div class="col-2 title-img">
+                            <h2 class="text-start title">advertising & services</h2>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King abdulaziz international airport<span
+                                        class="new">new</span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">outdoor bilboard</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">advertising</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">2 june 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- sec card -->
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11 top-line">dammam airport<span class="new">new</span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">indoor 4 advertising banners</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col">
+                                    <button class="cat-action">
+                                        <a href="#" class="cat-a">telecom.</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">1 august 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="col mb-4">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King khalid international airport<span class="new"></span>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">wide banner terminal 3</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">banks</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">14 may 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col read-col">
+
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  show-links">
+                        <div class="col-12 list-ctn">
+                            <ul class="category-list">
+                                <span class="show-cat">show :</span>
+                                <li><a href='#'>All (<span id="countS1A">205</span>)</a></li>
+                                <li><a href='#'>advertising (<span id="countS12">42</span>)</a></li>
+                                <li><a href='#'>banks (<span id="countS13">22</span>)</a></li>
+                                <li><a href='#'>telecommunications (<span id="countS12">72</span>)</a></li>
+                                <li><a href='#'>packaging (<span id="countS13">5</span>)</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- end -->
+            <!-- third section -->
+            <section id="retails">
+                <div class="row row-opportunities opportunities-section">
+                    <div class="row img-title">
+                        <div class="col-2 marker"><img src="./assets/retails.png" /></div>
+                        <div class="col-2 title-img">
+                            <h2 class="text-start title">retails & duty free</h2>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King abdulaziz international airport<span
+                                        class="new">new</span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">jewellery shop</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">duty free</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">2 june 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- sec card -->
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11 top-line">dammam airport<span class="new">new</span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">imported goods shop</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col">
+                                    <button class="cat-action">
+                                        <a href="#" class="cat-a">super markets</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">1 august 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="col mb-4">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King khalid international airport<span class="new"></span>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">duty free shop</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">pharmacy</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">14 may 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col read-col">
+
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  show-links">
+                        <div class="col-12 list-ctn">
+                            <ul class="category-list">
+                                <span class="show-cat">show :</span>
+                                <li><a href='#'>All (<span id="countS1A">205</span>)</a></li>
+                                <li><a href='#'>duty free (<span id="countS12">42</span>)</a></li>
+                                <li><a href='#'>pharmacy (<span id="countS13">22</span>)</a></li>
+                                <li><a href='#'>super markets (<span id="countS13">72</span>)</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- end -->
+            <!-- forth section -->
+            <section id="transport">
+                <div class="row row-opportunities opportunities-section">
+                    <div class="row img-title">
+                        <div class="col-2 marker"><img src="./assets/transport.png" /></div>
+                        <div class="col-2 title-img">
+                            <h2 class="text-start title">transportation</h2>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King abdulaziz international airport<span
+                                        class="new">new</span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">taxi and limo partnership</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">car rent</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">2 june 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- sec card -->
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11 top-line">dammam airport<span class="new"></span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">bus station administration</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col">
+                                    <button class="cat-action">
+                                        <a href="#" class="cat-a">buses</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">1 august 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="col mb-4">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King khalid international airport<span class="new"></span>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">parking service</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">train</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">14 may 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col read-col">
+
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  show-links">
+                        <div class="col-12 list-ctn">
+                            <ul class="category-list">
+                                <span class="show-cat">show :</span>
+                                <li><a href='#'>All (<span id="countS1A">205</span>)</a></li>
+                                <li><a href='#'>train (<span id="countS12">42</span>)</a></li>
+                                <li><a href='#'>buses (<span id="countS13">22</span>)</a></li>
+                                <li><a href='#'>car rent (<span id="countS1A">72</span>)</a></li>
+                                <li><a href='#'>paking (<span id="countS12">5</span>)</a></li>
+                                <li><a href='#'>taxi (<span id="countS13">5</span>)</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- end -->
+            <!-- fifth section-->
+            <section id="hospt">
+                <div class="row row-opportunities opportunities-section">
+                    <div class="row img-title">
+                        <div class="col-2 marker"><img src="./assets/hospitality.png" /></div>
+                        <div class="col-2 title-img">
+                            <h2 class="text-start title">hospitality</h2>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King abdulaziz international airport<span
+                                        class="new">new</span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">30 hotel annual rent</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">hotels</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">2 june 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- sec card -->
+                    <div class="col">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11 top-line">dammam airport<span class="new"></span></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">luxury VIP lounge</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row ">
+                                <div class="col-auto btn-col">
+                                    <button class="cat-action">
+                                        <a href="#" class="cat-a">VIP lounge</a>
+                                    </button>
+
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">1 august 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col  read-col">
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="col mb-4">
+                        <div class="box-opportunities">
+                            <div class="row top-row">
+                                <div class="col-1 "><img class="icon" src="./assets/address-small.png" /></div>
+                                <div class="col-11  top-line">King khalid international airport<span class="new"></span>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="headLine">lounge at terminal 1</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
+                                    deleniti aperiam amet neque vel delectus recusandae doloremque </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto btn-col"><button class="cat-action">
+                                        <a href="#" class="cat-a">lounge</a>
+                                    </button>
+                                </div>
+                                <div class="col date">
+                                    <div class="row date-rows">
+                                        <div class="col-auto icon-date"><img class="date-icons" src="./assets/date.png">
+                                        </div>
+                                        <div class="col"><span class="date-span">14 may 2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="col read-col">
+
+                                    <a href="#" class="readmore">Read more ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  show-links">
+                        <div class="col-12 list-ctn">
+                            <ul class="category-list">
+                                <span class="show-cat">show :</span>
+                                <li><a href='#'>All (<span id="countS1A">205</span>)</a></li>
+                                <li><a href='#'>hotels (<span id="countS12">42</span>)</a></li>
+                                <li><a href='#'>lounge (<span id="countS13">22</span>)</a></li>
+                                <li><a href='#'> VIP lounge (<span id="countS13">72</span>)</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- end -->
+
+        </div>
+    </section>
+    <!-- opportunities ends -->
+    <!-- partners section starts -->
+    <section class="partners">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12">
+                        <h1 class="partners-header">investment partners</h1>
+                    </div>
+                </div>
+                <div class="row partners-logos">
+                    <div class="col"><img src="./assets/jeddah.png" alt="king abdulaziz international airport logo">
+                    </div>
+                    <div class="col"><img src="./assets/airports.png" alt="riyadh airports logo"></div>
+                    <div class="col"><img src="./assets/daco.png" alt="daco logo"></div>
+                    <div class="col"><img src="./assets/office.png" alt="executive office logo"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- partners section ends -->
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="container-fluid footer-ctn">
+            <div class="container">
+                <div class="footer-flex">
+                    <div class="footer-brand">
+                        <div class="img-ctn"><img src="./assets/gaca-white.png" alt="gaca logo"></div> <span>GACA
+                            INVESTMENT PORTAL</span>
+                    </div>
+                    <div class="footer-links"><a href="#">home</a></div>
+                    <div class="footer-links"><a href="#">how to invest</a></div>
+                    <div class="footer-links"><a href="#">opprtunities</a></div>
+                    <div class="footer-links"><a href="#">statistics</a></div>
+                    <div class="footer-links"><a href="#">contact us</a></div>
+                    <div class="footer-links"><a href="#">my account</a></div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section ends -->
+    <!-- copy-rights section starts -->
+    <section class="copy-rights">
+        <div class="container-fluid rights-ctn ">
+            <div class="container">
+                <div class="right-flex">
+                    <div class="right-p">
+                        <p>© All Rights Reserved to General Authority of Civil Aviation 2022</p>
+                    </div>
+                    <div class="right-links">
+                        <a href="#"> privacy policy</a>
+                        <a href="#"> terms and conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
+    <!-- copy-rights section ends -->
+
+
+
+
+
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 <script src="./jquery/jqueryLib.js" type="text/javascript"></script>
 <script src="index.js" type="text/javascript"></script>
+
 </html>

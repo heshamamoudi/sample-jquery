@@ -1,0 +1,36 @@
+.partners-header{
+    color: var(--secondary-color);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 100px 0 100px 0;
+}
+
+
+.partners-logos{
+    padding: 0 0 100px 0;
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+}
+.partners-logos .col{
+    align-self: center;
+}
+.partners-logos img{
+    width: 200px;
+    height: 100px;
+}
+
+
+@media screen and (max-width:414px) {
+    .partners-logos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 100px;
+    }
+    .partners-logos img{
+        
+        width: 90px !important;
+        height: 50px !important;
+    }
+}
