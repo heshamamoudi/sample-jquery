@@ -1,7 +1,7 @@
+@import url('/fonts/fonts.css');
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
 :root{
@@ -9,7 +9,28 @@ body{
 --secondary-color: #0075c9;
 --third-color:#b6d7ee;
 }
+/* toggler  */
+.toggle-up{
+    color: white ;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    background: var(--main-color);
+    position: fixed;
+    top: 500px;
+    right: 20px;
+    z-index: 1;
+}
+.toggle-up:focus{
+    color: red;
+}
+/* ------------------ */
+
+
 /* nav and hero section */
+/* container of the nav and hero section */
 .nav-hero-ctn{
     
     width: 100%;
@@ -23,50 +44,57 @@ body{
    
     
 }
-
+/* navbar background */
 .bg{
     background: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.773),rgba(255, 255, 255, 0.536),rgba(179, 179, 179, 0.01));
     
 }
+/* brand border */
 .brand-border{
-    border-right: 2px solid #274479;
+    border-right: 2px solid var(--main-color);
     
 }
-
-/* section{
-    height: 550px !important;
-} */
+/* brand adjustment : gaca investment portal  */
 .brand{
+    font-family:'GretaArabicAR_LTRegular' ;
     display: block;
     word-wrap: break-word;
     width: 120px;
     font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
     text-decoration: none;
     color: var(--main-color);
 }
+/* language arabic holder and adjustments */
 .lang{
    margin-left: auto;
     font-weight: bold;
     text-decoration: none;
     color: var(--main-color);
     height: fit-content;
-    
-    
 }
-.col-2{
-    width: fit-content;
-}
-
+.lang:hover{
+    color: var(--secondary-color);
+   cursor: pointer;
+    
+     
+ }
+ /* margins to make it on top  */
 .right{
    
     margin-left: -80px;
     margin-top: -50px ;
 }
+ /* ----------- */
+
+/* hiding nav  as default mobile view*/
 .nav{
-    display: none !important;
+    display: none ;
    
    
 }
+/* bars and close adjustments */
 .bars-ctn{
     text-align: right;
 }
@@ -75,26 +103,19 @@ body{
     height: 20px;
     
 }
-
-/* NavBar Ends */
-
-/*Side NavBar */
-
-/* Side NavBar Ends */
-
-/* hero section  */
-
-/* hero section  ends*/
-
-
-/* contact us section starts*/
+.bars:hover{
+    cursor: pointer;
+    
+}
+#close:hover{
+    cursor: pointer;
+}
+/* ---------------------- */
 
 
 
-/* contact us section  ends*/
-
-
- @media screen and (min-width:820px){
+/* large devices  */
+ @media screen and (min-width:768px){
     .container-fluid{
         justify-content: center;
         width: 100%;
@@ -105,11 +126,11 @@ body{
    }
     .nav{
         
-        display:flex !important;
+        display:flex ;
         
     }
     .nav-ctn{
-        margin-top: 50px !important;
+        margin-top: 50px ;
     }
     .navbar-list{
         display: flex;
@@ -126,11 +147,12 @@ body{
         background-color: transparent;
         color: var(--main-color);
         margin: 0 0 0 29px;
-        font-weight: 700;
-        font-size: 13px;
+        font-weight: 645;
+        font-size: 13.5px;
         text-transform: uppercase;
     }
     .btn-account{
+        font-family: 'GretaArabicAR_LTBold';
         border: none;
         background: #ef3a4c;
         color: white;
@@ -156,20 +178,17 @@ body{
     }
     
 } 
+/* tablets/ipads  */
 @media screen and (max-width:768px){
-    /* .nav-hero-ctn{
-         width: 100% !important;
+    .nav-ctn{
+        width: fit-content;
     }
-     */
      .col-sm-auto {
          padding-top: 10px;
-        width: fit-content !important;
-        height: 100px !important;
+        width: fit-content ;
+        height: 100px ;
     }
-    .col-9 {
-        
-        width: 20% !important;
-    }
+   
     .analysis{
         height: fit-content;
     }
@@ -196,13 +215,13 @@ body{
     
     
 }
-
+/* mobile devices */
 @media screen and (max-width:414px){
     .navbar{
         width: 100%;
         margin: 0;
         padding: 0;
-        justify-content: space-between;
+        justify-content: center;
        
     }
    .col-sm-auto img{
@@ -221,9 +240,6 @@ body{
        margin-bottom: 20px;
    }
    
-   .gaca{
-       
-   }
    .box{
       
     text-align: center;

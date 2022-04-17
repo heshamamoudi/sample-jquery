@@ -15,14 +15,24 @@
 .topLine{
     line-height: 20px;
     text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 600;
 }
 .heading{
     line-height: 30px;
     font-size: 30px;
     word-break: 3;
     text-transform: uppercase;
+    color: var(--main-color);
     font-weight: bold;
 
+}
+#description{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--main-color);
+    
 }
 .explore{
     background-color: transparent;
@@ -66,6 +76,8 @@
     margin-left: 10px auto;
     height: auto;
     justify-content: space-between;
+    font-family: 'GretaArabicAR_LTRegular';
+
 }
 .analysis{
    display: flex;
@@ -100,7 +112,8 @@
     color: var(--main-color);
 }
 .card-desc{
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-size: 15px !important;
 }
 .box .col ,.col-auto{
     align-self: center;
@@ -173,6 +186,9 @@
     .nav-hero-ctn{
         background-position-x: left;
     }
+    .hero-ctn{
+        padding: 50px 0 100px 0;
+    }
     .analysis{
         margin: 0;
     }
@@ -190,6 +206,7 @@
 
         background-color: var(--main-color);
     }
+    
     .boxes-ctn{
         /* flex-direction: column; */
         align-items: center;
@@ -236,15 +253,22 @@
         justify-content: center;
         justify-items: center;
         align-items: center;
+        
         /* display: block; */
     }
     .action{
         justify-content: center;
     }
-    .push p{
+    .push{
+        width: fit-content;
+        margin: 20px 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
+    .push > p{
         padding: 0 !important;
-       
-        margin: 0;
+        margin: 0 0 10px 0;
+        max-width: fit-content;
         text-align: center;
     }
     .info-holder{
@@ -265,14 +289,14 @@
     .boxes-ctn{
         height: fit-content;
         width: fit-content;
-        /* flex-direction: column; */
-       align-items: flex-end;
+        display: grid;
+        margin: 70px 0 0 0;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 100px;
+       
     }
    .analysis .col-3{
        width: fit-content ;
-       justify-items: center;
-       justify-content: center;
-       align-self: flex-start;
    }
     .box{
         height: 288px  !important;

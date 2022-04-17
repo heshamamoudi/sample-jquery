@@ -13,6 +13,7 @@ padding: 10px 10px 0px 10px;
    color: var(--third-color);
    font-weight: 600;
 padding: 10px;
+text-transform: capitalize;
 
 }
 .right-flex a:first-child::after{
@@ -34,9 +35,14 @@ padding: 10px;
      }
      .right-flex a{
      padding: 0;
-     margin: 10px;
+     margin: 0 10px 0 0;
      
      }
+     #terms{
+        padding: 0;
+        margin: 0 0 0 10px;
+        
+        }
      .right-flex {
         padding: 10px;
         

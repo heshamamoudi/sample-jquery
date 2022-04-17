@@ -5,25 +5,42 @@
 }
 .sideNavbar{
     display: none;
-    background: rgba(4, 30, 96, 0.668);
-    right: 0;
+    background: rgb(4, 30, 96);
+    left: 0;
     position: fixed;
     z-index: 1;
     width: 200px;
     height: 100%;
     overflow-y: hidden;
+    border-top-right-radius: 10px;
 }
-
-.showSide{
+.side-list{
     display: flex;
     flex-direction: column;
-    position: fixed;
-    text-align: center;
-    
+    text-align: left;
+    list-style: none;
+    display: none;
 }
+.flex-side{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .sideNav li{
     margin: 0 0 20px 0;
-    
+    text-align: left;
+}
+.sidelist-op{
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.sidelist-op:hover{
+    color: var(--secondary-color);
+}
+#inverse{
+filter: grayscale(1) invert(1);;
 }
 .links{
    text-decoration: none;

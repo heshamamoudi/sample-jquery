@@ -1,25 +1,70 @@
+/* nav arrow */
+.arrow-down{
+  margin-top: -6px ;
+}
+/* nav list  */
+.opportunities-list{
+  position: absolute;
+  right: 700px;
+  text-align: left;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: none;
+}
+/* nav list adjustments */
+.list-opp {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+.list-opp  a{
+ font-family: 'GretaArabicAR_LTRegular';
+   color: black;
+   text-transform: capitalize;
+}
+.list-opp li{
+   margin: 0 0 10px 0;
+}
+/* ----------------------- */
+
+/* margining the section */
 .opportunities-section {
   padding-bottom: 5%;
 }
+/* setting color and font family */
 .opportunities {
-  width: 100%;
-  height: 100%;
   background-color: #f8fafc;
+  font-family: '#GretaArabicAR_LTRegular';
 }
+
+/* page header  */
+.header-opportunities span {
+  color: #0075c9;
+  font-weight: bold;
+}
+/* header for  each opportunity Ex: food & beverage*/
 .header-opportunities {
   text-transform: uppercase;
   padding: 50px;
   height: fit-content;
   text-align: center;
 }
-
-.header-opportunities span {
-  color: #0075c9;
-  font-weight: bold;
-}
+/* padding whole opportunity row -- starts from header till categories list --  */
 .rows-opportunities {
   padding: 0 0 50px 0;
 }
+
+
+/* row title */
+.title {
+  color: #274479;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: bold;
+}
+/* coloumn shape per each  */
 .box-opportunities {
   border: 2px solid white;
   background-color: white;
@@ -29,23 +74,23 @@
   height: 250px;
   box-shadow: rgba(0, 0, 0, 0.168) 2px 2px 5px;
 }
-.title {
-  color: #274479;
-  text-transform: capitalize;
-  margin: 0;
-  font-weight: bold;
-}
-.marker {
-  align-self: flex-start;
 
-  padding: 0;
-}
+/* row of the img and title  */
 .img-title {
   margin: 0 0 15px 0;
 }
+/* div holding title img */
+.marker {
+  align-self: flex-start;
+  padding: 0;
+}
+
+/* col holding the title */
 .title-img {
   align-self: center;
 }
+
+/* row of category list links */
 .show-links {
   margin: 0;
   padding: 0;
@@ -54,9 +99,11 @@
   align-items: flex-end;
   justify-content: end;
 }
+/* container (col) of the list */
 .list-ctn {
   margin: 0;
 }
+/* ul class list */
 .category-list {
   display: flex;
   list-style: none;
@@ -65,44 +112,55 @@
   text-transform: capitalize;
   justify-content: end;
 }
+/* list items */
 .category-list li {
   margin: 0 0 0 30px;
 }
+/* items link */
 .category-list li a {
   text-decoration: none;
   color: var(--secondary-color);
 }
+/* first row in box */
+.top-row {
+  margin-bottom: 10px;
+}
+/* adress icon */
 .icon {
   width: 10px;
   height: 15px;
 }
-.top-row {
-  margin-bottom: 10px;
-}
+/* box top line */
 .top-line {
   padding: 0;
   font-size: small;
   align-self: end;
-  word-spacing: -2px;
   text-transform: capitalize;
 }
+/* new word with top line*/
 .new {
   text-transform: uppercase;
   color: red;
   font-weight: bold;
   margin: 0 0 0 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*header of the box  */
 .headLine {
   color: var(--secondary-color);
   text-transform: capitalize;
+  font-weight: bold;
 }
+/* box paragraph */
 .paragraph {
   font-weight: 500;
   line-height: 20px;
 }
+/* col of the button in box */
 .btn-col {
   align-self: flex-end;
 }
+/* button in box */
 .cat-action {
   border: none;
   background-color: var(--secondary-color);
@@ -114,6 +172,9 @@
 .cat-action:hover a {
   color: white;
 }
+/* ------------ */
+
+/* link in button */
 .cat-a {
   color: white;
   text-decoration: none;
@@ -121,60 +182,98 @@
   text-transform: capitalize;
   font-weight: bold;
 }
+/* col of date */
 .date,
 .read-col {
   align-self: center;
 }
-
+/* span in col of date */
 .date-span {
   width: max-content;
-  font-size: 10.5px;
-  font-weight: 600;
+  font-size: 12.5px;
   text-transform: capitalize;
 }
+/* icon in date col */
 .date-icons {
   width: 20px;
   height: 20px;
+  margin: 5px 5px 0 0;
 }
-
+/* read more link */
 .readmore {
   text-decoration: none;
   color: black;
   font-size: 12px;
 }
+/* col of the date icon */
 .icon-date {
   padding: 0;
   margin: 0;
 }
+/* holder of show word  */
 .show-cat {
   color: var(--main-color);
   font-weight: 600;
 }
-.opportunities-list{
-    position: absolute;
-    right: 700px;
-    text-align: left;
-    background-color: white;
-    width: fit-content;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: none;
+
+
+/* fixer for some padding in coloumns */
+.col-span{
+  padding: 0;
 }
-.list-opp {
-   list-style: none;
-   margin: 0;
-   padding: 20px;
-   /* padding: 0; */
+
+
+
+
+
+ @media screen and (max-width:1280px){
+  .opportunities-list{
+
+    right: 400px;
+
+  }
+  .col-span{
+    padding: 0;
+   
+  }
+.date-span{
+    
+   font-size: 12px;
+   padding: 0;
 }
-.list-opp  a{
-    color: black;
-    text-transform: capitalize;
- }
- .list-opp li{
-    margin: 0 0 10px 0;
+.date-icons {
+   margin: 5px 5px 0 0;
+}
+.btn-col{
+    margin: 6px 0 0 0;
+    align-self: flex-start;
+}
+.read-col{
+    margin: 0 !important;
+    padding: 0;
+    align-self: start;
+}
+.read-col a{
+ font-size: 15px;
+}
+
+
  }
 
+
+
 @media screen and (max-width:820px){
+    .opportunities-list{
+
+      right: 400px;
+
+    }
+    .title-img{
+      width: fit-content;
+    }
+    .marker{
+      width: fit-content;
+    }
     .row-opportunities {
       display: flex;
       flex-direction: column;
@@ -199,7 +298,7 @@
      font-size: 15px;
   }
   .date-icons {
-     margin: -15px 0 0 0;
+     margin: -8px 5px 0 0;
   }
   .btn-col{
       margin: 6px 0 0 0;
@@ -214,12 +313,11 @@
    font-size: 15px;
 }
  
- 
-  
   }
 
 
 @media screen and (max-width:414px){
+  
   .row-opportunities {
     display: flex;
     flex-direction: column;
