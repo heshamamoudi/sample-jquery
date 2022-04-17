@@ -83,11 +83,13 @@
 .marker {
   align-self: flex-start;
   padding: 0;
+  width: fit-content;
 }
 
 /* col holding the title */
 .title-img {
   align-self: center;
+  width: fit-content;
 }
 
 /* row of category list links */
